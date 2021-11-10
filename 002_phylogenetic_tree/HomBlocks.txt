@@ -1,0 +1,4 @@
+# https://github.com/fenghen360/HomBlocks
+perl ./HomBlocks.pl --align --path=/home/MingYan/Biotools/HomBlocks-master/cp/fasta/ -out_seq=cp.output.fasta --mauve-out=cp.mauve.out
+
+iqtree -s cp.output.fasta -bb 1000
